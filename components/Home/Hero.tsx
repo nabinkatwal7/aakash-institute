@@ -1,4 +1,6 @@
+'use client';
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
@@ -13,10 +15,14 @@ const Hero = () => {
     >
       <div className="absolute inset-0 z-0 bg-black opacity-50"></div>
       <div className="relative z-10 flex">
-        <p className="text-center text-3xl font-extrabold md:text-4xl lg:text-5xl xl:text-7xl">
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1, transition: { duration: 1 } }}
+          className="text-center text-3xl font-extrabold md:text-4xl lg:text-5xl xl:text-7xl"
+        >
           Your Gateway to <span className="text-[#e37712]">Global Opportunities</span> : Guiding You Every Step of the
           Way
-        </p>
+        </motion.p>
       </div>
     </div>
   );

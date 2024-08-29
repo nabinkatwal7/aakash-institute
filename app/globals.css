@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Lato';
+  src: url('/Lato-Regular.ttf') format('truetype');
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
 body {
   background-color: #fef8ee;
+  font-family: 'lato', sans-serif;
 }
