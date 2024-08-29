@@ -14,4 +14,5 @@
 body {
   background-color: #fef8ee;
   font-family: 'lato', sans-serif;
+  overflow-x: hidden;
 }

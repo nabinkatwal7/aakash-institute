@@ -1,4 +1,4 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { FaBookReader, FaFacebookSquare, FaPhoneAlt, FaPlaneDeparture } from 'react-icons/fa';
@@ -12,7 +12,8 @@ const Footer = () => {
     <div className="flex flex-col gap-2">
       <div className="flex flex-col p-4 lg:flex-row lg:justify-around">
         <div className="flex flex-col gap-4">
-          <Image src="/logo.png" alt="logo" width={200} height={200} className="w-40" />
+          {/* <Image src="/logo.png" alt="logo" width={200} height={200} className="w-40" /> */}
+          <p>logo</p>
           <div className="flex flex-col gap-1">
             <p className="text-lg font-bold">Aakash Institute Pvt. Ltd.</p>
             <p>नेपाल सरकार, शिक्षा मन्त्रालय बाट स्विकृति प्राप्त संस्था</p>
