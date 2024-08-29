@@ -1,7 +1,21 @@
+import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Header = () => {
-  return <div>header</div>;
+  return (
+    <div className="sticky top-0 z-50 flex items-center justify-between bg-white px-4 py-2 shadow-xl">
+      <Image src="/logo.png" alt="logo" width={200} height={200} className="w-40" />
+      <div className="hidden lg:flex">links</div>
+      <Link
+        target="_blank"
+        href="https://facebook.com"
+        className="rounded-lg bg-[#e37712] px-4 py-2 font-bold text-white"
+      >
+        Consult with us
+      </Link>
+    </div>
+  );
 };
 
 export default Header;
