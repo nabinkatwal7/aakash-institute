@@ -17,7 +17,7 @@ const CountryCard = ({ data }: { data: any }) => {
         <p>{data.name}</p>
       </div>
       <div>{data.description}</div>
-      <div>link</div>
+      {/* <div>link</div> */}
     </div>
   );
 };
