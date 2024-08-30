@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Description = () => {
@@ -19,6 +20,11 @@ const Description = () => {
           Join the thousands of satisfied clients who have turned their aspirations into reality with our help. Your
           global adventure starts here.
         </p>
+        <div className="mt-4">
+          <Link className="rounded-lg bg-[#e37712] px-4 py-2 font-bold text-white" href="/about">
+            Learn more about us
+          </Link>
+        </div>
       </div>
     </section>
   );

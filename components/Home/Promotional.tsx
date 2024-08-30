@@ -43,11 +43,7 @@ const Promotional = () => {
           </div>
         ))}
       </div>
-      <Link
-        target="_blank"
-        href="https://facebook.com"
-        className="rounded-lg bg-[#e37712] px-4 py-2 font-bold text-white"
-      >
+      <Link href="/contact" className="rounded-lg bg-[#e37712] px-4 py-2 font-bold text-white">
         Start Your Journey With Us
       </Link>
     </div>

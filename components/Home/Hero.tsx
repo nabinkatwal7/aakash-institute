@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const Hero = () => {
   return (
     <div
-      className="relative flex min-h-[50dvh] flex-col items-start justify-center gap-4 p-4 text-white"
+      className="relative flex min-h-[70dvh] flex-col items-start justify-center gap-4 p-4 text-white"
       style={{
         backgroundImage: 'url(/hero.jpg)',
         backgroundSize: 'cover',
