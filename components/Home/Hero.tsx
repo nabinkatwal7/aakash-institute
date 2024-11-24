@@ -20,8 +20,8 @@ const Hero = () => {
           animate={{ opacity: 1, transition: { duration: 1 } }}
           className="text-center text-3xl font-extrabold md:text-4xl lg:text-5xl xl:text-7xl"
         >
-          Your Gateway to <span className="text-[#e37712]">Global Opportunities</span> : Guiding You Every Step of the
-          Way
+          Start your global adventure today with <span className="text-[#e37712]">Aakash Institute</span> — where
+          opportunity meets success!
         </motion.p>
       </div>
     </div>

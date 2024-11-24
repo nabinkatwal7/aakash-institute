@@ -19,7 +19,7 @@ export const entranceData = [
   },
   {
     id: 4,
-    title: 'Bachelor in Engineering',
+    title: 'Bachelor in Engineering BE/BSC CSIT',
     description: 'Bridge Course in science and management',
     image: '/assets/it.jpg',
   },

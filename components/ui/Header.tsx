@@ -1,4 +1,5 @@
 // import Image from 'next/image';
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -6,8 +7,7 @@ const Header = () => {
   return (
     <div className="sticky top-0 z-50 flex items-center justify-between bg-white px-8 py-2 shadow-xl">
       <Link href="/">
-        {/* <Image src="/logo.png" alt="logo" width={200} height={200} className="w-40" /> */}
-        <p>logo</p>
+        <Image src="/logo.png" alt="logo" width={200} height={200} className="w-40" />
       </Link>
       {/* <div className="hidden lg:flex">links</div> */}
       <Link

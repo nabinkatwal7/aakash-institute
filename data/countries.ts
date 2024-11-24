@@ -41,4 +41,18 @@ export const countries: Country[] = [
     description:
       'Unlock your potential with a world-class education in the UK. Study in historic institutions, experience rich cultural heritage, and access limitless career opportunities in a global hub.',
   },
+  {
+    id: 6,
+    name: 'USA',
+    image: '/assets/usa.png',
+    description:
+      'Unlock your potential with a world-class education in the USA. Study in historic institutions, experience rich cultural heritage, and access limitless career opportunities in a global hub.',
+  },
+  {
+    id: 7,
+    name: 'South Korea',
+    image: '/assets/korea.jpg',
+    description:
+      'Unlock your potential with a world-class education in South Korea. Study in historic institutions, experience rich cultural heritage, and access limitless career opportunities in a global hub.',
+  },
 ];

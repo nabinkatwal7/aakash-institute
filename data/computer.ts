@@ -14,7 +14,7 @@ export const computerData = [
   {
     id: 3,
     title: 'Graphic Designing',
-    description: 'Diploma in Information Technology',
+    description: 'Graphic Designing',
     image: '/assets/graphic.jpeg',
   },
 ];
