@@ -20,7 +20,7 @@ export default Classes;
 
 const Card = ({ data }: { data: any }) => {
   return (
-    <Link href={'/class/' + data.title} className="flex flex-col gap-4 rounded-lg border p-4 shadow-xl">
+    <Link href={'/class/' + data.link} className="flex flex-col gap-4 rounded-lg border p-4 shadow-xl">
       <div className="overflow-hidden">
         <Image
           src={data.image}

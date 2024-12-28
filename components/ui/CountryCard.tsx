@@ -1,9 +1,10 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const CountryCard = ({ data }: { data: any }) => {
   return (
-    <div className="flex flex-col gap-4 rounded-lg border p-4 shadow-xl">
+    <Link href={'/countries/' + data.link} className="flex flex-col gap-4 rounded-lg border p-4 shadow-xl">
       <div className="overflow-hidden">
         <Image
           src={data.image}
@@ -18,7 +19,7 @@ const CountryCard = ({ data }: { data: any }) => {
       </div>
       <div>{data.description}</div>
       {/* <div>link</div> */}
-    </div>
+    </Link>
   );
 };
 

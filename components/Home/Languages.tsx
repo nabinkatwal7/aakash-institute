@@ -20,7 +20,7 @@ export default Languages;
 
 const Card = ({ data }: any) => {
   return (
-    <Link href={'/language/' + data.title} className="flex flex-col gap-4 rounded-lg border p-4 shadow-xl">
+    <Link href={data.link} className="flex flex-col gap-4 rounded-lg border p-4 shadow-xl">
       <div className="overflow-hidden">
         <Image
           src={data.image}
