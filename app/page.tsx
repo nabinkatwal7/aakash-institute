@@ -7,6 +7,7 @@ import Hero from '@/components/Home/Hero';
 import Languages from '@/components/Home/Languages';
 import Promotional from '@/components/Home/Promotional';
 import Reviews from '@/components/Home/Reviews';
+import VideoSection from '@/components/Home/VideoSection';
 import WhyUs from '@/components/Home/WhyUs';
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
     <div className="flex w-screen flex-col gap-2 overflow-x-hidden">
       <Hero />
       <Description />
+      <VideoSection />
       <Countries />
       <Classes />
       <Courses />

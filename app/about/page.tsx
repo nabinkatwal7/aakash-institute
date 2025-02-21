@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import React from 'react';
 
 const AboutUs = () => {
   const members = [
@@ -8,13 +7,13 @@ const AboutUs = () => {
         ' To provide proper guidance to the students for the application processes, documentation, visa lodgment, travel arrangements and many more.',
     },
     {
-      description: 'Toincrease the volume of the student’s visa rate for the year 2017.',
+      description: 'To increase the volume of the student’s visa rate for the year 2017.',
     },
     {
       description: 'To reduce the visa refusal rate for the students who have applied to Study Abroad.',
     },
     {
-      description: 'Toextend business activities in other countries for the study purpose.',
+      description: 'To extend business activities in other countries for the study purpose.',
     },
     {
       description:
@@ -36,8 +35,8 @@ const AboutUs = () => {
           <h2 className="text-4xl font-bold text-gray-800">About Us</h2>
           <p className="mt-4 text-lg text-gray-600">
             In a span of 17 years, we are in a position to proclaim our selves as one of the best institutes for
-            Education Consultancy in Nepal. We promise students the most study-friendly and congenial environment withs
-            tate-of-the-art facilities for STUDYABROAD, TEST PREPARATION, ENTRANCEPREPARATION AND PBRIDGECOURSES
+            Education Consultancy in Nepal. We promise students the most study-friendly and congenial environment with
+            state-of-the-art facilities for STUDY ABROAD, TEST PREPARATION, ENTRANCE PREPARATION AND BRIDGECOURSES
           </p>
         </div>
         <div className="mb-12 text-center">
@@ -48,7 +47,7 @@ const AboutUs = () => {
             modern-day challenges. AakashInstitute, since its inception at Itahari, has established itself as an
             education hub in the eastern region.It is the pioneer in the sector of providing diverse educational
             services like Bridge courses after SEE, Entrance Preparation of CTEVT, NURSING, ENGINEERING, MEDICAL,
-            PARAMEDICAL, APPLIED SCIENCE, CMAT/KUUMAT&AbroadStudy for JAPAN, S.KOREA, AUSTRALIA, U.K., CANADA & USA.
+            PARAMEDICAL, APPLIED SCIENCE, CMAT/KUUMAT & Abroad Study for JAPAN, S.KOREA, AUSTRALIA, U.K., CANADA & USA.
             Moreover, with a decade-long experience and research of the market, we have geared up for yet another
             landmark in the education sector. The key to success, however, is the highest level of preparation and that
             is what AAKASH INSTITUTE has been striving to achieve. Here at AAKASH INSTITUTE, we prepare students to the
@@ -64,11 +63,11 @@ const AboutUs = () => {
         <div className="mb-12 flex flex-wrap items-center">
           <div className="mb-12 w-full md:mb-0 md:w-1/2">
             <Image
-              src="/hero.jpg"
+              src="/images/mission.jpg"
               width={800}
               height={800}
               alt="About Us"
-              className="h-auto w-full rounded-lg shadow-lg"
+              className="max-h-[500px] w-full rounded-lg object-cover shadow-lg"
             />
           </div>
           <div className="w-full md:w-1/2 md:pl-12">
@@ -89,7 +88,7 @@ const AboutUs = () => {
         <div className="mb-12 flex flex-wrap-reverse items-center">
           <div className="mb-12 w-full md:mb-0 md:w-1/2">
             <Image
-              src="/hero.jpg"
+              src="/images/vision.jpg"
               width={800}
               height={800}
               alt="About Us"
@@ -111,7 +110,7 @@ const AboutUs = () => {
         <div className="mb-12 flex flex-wrap items-center">
           <div className="mb-12 w-full md:mb-0 md:w-1/2">
             <Image
-              src="/hero.jpg"
+              src="/images/purpose.jpg"
               width={800}
               height={800}
               alt="About Us"
@@ -130,7 +129,7 @@ const AboutUs = () => {
 
         {/* Team Members Section */}
         <div className="mb-12 text-center">
-          <h2 className="text-3xl font-bold text-gray-800">Our Quaity Policy</h2>
+          <h2 className="text-3xl font-bold text-gray-800">Our Quality Policy</h2>
           <p className="mt-4 text-lg text-gray-600">
             The continuing Policy of Aakash Institute is to provide a high-quality, professional and efficient service
             to ensure the satisfaction of all of the requirements of our clients. This achievement will result in

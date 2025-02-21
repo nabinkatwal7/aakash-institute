@@ -1,5 +1,4 @@
 'use client';
-import React from 'react';
 import { motion } from 'framer-motion';
 
 const Hero = () => {
@@ -7,7 +6,7 @@ const Hero = () => {
     <div
       className="relative flex min-h-[70dvh] flex-col items-start justify-center gap-4 p-4 text-white"
       style={{
-        backgroundImage: 'url(/hero.jpg)',
+        backgroundImage: 'url(/images/hero.JPG)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',

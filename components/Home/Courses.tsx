@@ -1,4 +1,3 @@
-import React from 'react';
 import { entranceData } from '@/data/entrance';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -27,7 +26,7 @@ const Card = ({ data }: any) => {
           alt="country"
           width={800}
           height={800}
-          className="h-[250px] w-full rounded-lg object-cover transition-all duration-300 hover:scale-110"
+          className="h-[250px] w-full rounded-lg object-contain transition-all duration-300 hover:scale-110"
         />
       </div>
       <div>
